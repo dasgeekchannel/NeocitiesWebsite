@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DasGeek Community</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+     <!-- This is to call the navigation header -->
+   <header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="nav-placeholder">
+
+<script>
+$.get("header.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+</header>
+<!-- end navigation bar -->
+<div id="main">
+   
+</div>  
+
+
+ 	<header>
+		<h2>News</h2>
+	</header>
+		
+<section class="columns">
+	
+	<div class="column">
+		<h3>Latest Channel News</h3>
+		<p>Will be working on content related to Arch, FreeNaS, and Raspberry Pi along with some software spotlights coming in the next few weeks!</p>
+		<p> <strong><a href="support.html"> Become a Patron</a></strong>
+	</div>
+	
+	<div class="column">
+		<h3>North GA MeetUp News</a></h3>
+		<p>For the May 4th 'Linux and Coffee' LUG meet-up I would like to do a live Arch install. Several have suggested they were interested in using Arch so this would be a great occassion to share in a project together.</p>
+		<p>RSVP for the event by clicking <a href="https://gettogether.community/north-georgia-linux-and-coffee/">here. </a>
+		<p> Gallery of pics from the event <a href="gallery.html">Photo Gallery</a>
+	</div>
+  
+  <div class="column">
+		<h3>General News</h3>
+		<p>Excited to see all of you at SELF (SE Linux Fest) this year. I will be live streaming some content at the event for those who can't join in person.</p>
+			<p><a href="http://southeastlinuxfest.org/"> SELF Registration </a> </p>
+	</div>
+	
+</section>	
+<h3> Latest Videos </h3>
+<iframe width="360" height="315" src="https://www.youtube-nocookie.com/embed/2cxgn-Plkbo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="360" height="315" src="https://www.youtube-nocookie.com/embed/OGm1JcLR28s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  </body>
+</html>

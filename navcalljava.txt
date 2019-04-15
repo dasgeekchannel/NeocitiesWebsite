@@ -1,0 +1,12 @@
+<!-- This is to call the navigation header -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<nav>
+<div id="nav-placeholder">
+
+<script>
+$.get("header.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+</nav>
+<!-- end navigation bar -->

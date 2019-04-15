@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+    <!-- This is to call the navigation header -->
+   <header>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div id="nav-placeholder">
+
+<script>
+$.get("header.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+</header>
+<!-- end navigation bar -->
+  <body>
+
+   <br>
+   <img src ="https://dasgeek.neocities.org/contact.jpg" alt="contact me image" align =left width=400 height=300>
+   <br>
+    <h3><strong>There are multiple ways to get in touch.</strong></h3>
+
+
+
+<p>You can find me on these social networks (never Facebook):</p>
+
+<p> <a href="https://twitter.com/dasgeekchannel">Twitter</a> | <a href="https://mastodon.social/@dasgeek">Mastadon</a> | <a href="https://www.youtube.com/dasgeek">Youtube</a> | <a href="http://www.destinationlinux.org/telegram">DL Telegram</a></p>
+
+<p>
+<p><strong>Send mail or products for review to:</strong></p>
+<p>DasGeek</p>
+<p>P.O. Box 585</p>
+<p>Ball Ground, GA 30107</p>
+
+  </body>
+</html>

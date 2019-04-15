@@ -1,0 +1,115 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+
+/*
+ #list li {
+display: inline;
+text-align: center;
+   }
+
+
+ #list li {
+	width: 900px; 
+	margin: 0 auto; 
+}
+
+#list a {
+text-decoration: none;
+color: green;
+}
+
+#list {
+background-color: #3fa46a;
+width: 900px; 
+	margin: 0 auto; 
+}
+*/
+.link-1 {
+  transition: 0.3s ease;
+  background: #55f207;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #55f207;
+  border-bottom: 4px solid #55f207;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
+  padding: 6px 0; 
+}
+
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#nav-1 {
+  background: #55f207;
+  width: 900px;
+}
+
+/* width:  300px;
+height: 25px;
+border-radius: 5px;
+}
+*/
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+} 
+
+/* "auto" makes the left and right margins center the wrapper */
+#wrap { 
+	width: 900px; 
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+* { box-sizing: border-box; }
+
+body { 
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+
+header {
+	padding: 0 15px;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	margin: 5px 0;
+	width: 900px;
+}
+
+.column {
+	flex: 1;
+	border: 1px solid gray;
+	margin: 2px;
+	padding: 10px;
+}
+
+footer {
+	padding: 0 15px;
+}
+
+
